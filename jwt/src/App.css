@@ -200,16 +200,16 @@
 
 @keyframes changeBackground {
   0% {
-    background-image: url('img/banner.jpg');
+    background-image: url('./assets/img/classic.png');
   }
   33% {
-    background-image: url('img/banner1.jpg');
+    background-image: url('./assets/img/española.png');
   }
   66% {
-    background-image: url('img/banner2.jpg');
+    background-image: url('./assets/img/fondo.jpg');
   }
   100% {
-    background-image: url('img/banner.jpg');
+    background-image: url('./assets/img/pesto-margarita.png');
   }
 }
 
