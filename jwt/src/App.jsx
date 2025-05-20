@@ -27,7 +27,7 @@ const App = () => {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/pizza/:id" element={<Pizza />} />
-              <Route path="/RegisterWithCustomHooks.jsx" element={<RegisterWithCustomHooks.jsx />} />
+              <Route path="/register" element={<RegisterWithCustomHooks />} />
               <Route path="/login" element={<Login />} />
               <Route path="/cart" element={<Cart />} />
               <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
